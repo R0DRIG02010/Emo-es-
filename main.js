@@ -42,7 +42,7 @@ function speak(){
 
  function gotResult(error, results) {
   if (error) {
-    console.error(error);
+    //console.error(error);
   } else {
     console.log(results);
     document.getElementById("resultEmotionName").innerHTML = results[0].label;
